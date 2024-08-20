@@ -23,8 +23,7 @@ public class  RandPassGen {
             int getAlphaLow = random.nextInt(alphaLow.length);
             int getNumeric= random.nextInt(numeric.length);
             int getSymbol = random.nextInt(symbol.length);
-            //ans += alphaCap[getAlpha]+ alphaLow[getAlphaLow]+numeric[getNumeric]+
-                    //symbol[getSymbol];
+            
             if(ans.length()<userInput){
                 ans+=alphaCap[getAlpha];
             }
